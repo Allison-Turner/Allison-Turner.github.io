@@ -22,8 +22,29 @@ h1, h2, h3, h4, h5, h6{
   text-align: center;
 }
 
+.readable-free-text{
+  width: 50%;
+}
+
 .inline-block-child {
   display: inline-block;
+}
+
+.flex-container-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /*justify-content: center;*/
+  /*align-items: center;*/
+}
+
+.flex-container-row > .column {
+  margin: 20px;
+  flex-wrap: wrap;
+}
+
+.flex-container-row > .column > div {
+  margin: 5px;
 }
 
 .logo-frame{

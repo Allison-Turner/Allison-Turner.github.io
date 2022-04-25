@@ -4,6 +4,7 @@
         <title>allison-turner</title>
 
         <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="scripts.js"></script>
     </head>
 
     <body>
@@ -33,43 +34,35 @@
           <div class="page-content">
 
             <!-- start intro -->
-            <p> <b>hi!</b> i'm allison, a first-year PhD student at UCSD. </p>
-            <p> i'm working to become a computer scientist specializing in network measurement, so i can help build the internet into a safer, better resource for everyone. </p>
-            <p> to learn more about me professionally, check out each page of the 'about' section of this site. </p>
+            <p class="readable-free-text"> <b>hi!</b> i'm allison, a first-year PhD student at UCSD. </p>
+            <p class="readable-free-text"> i'm working to become a computer scientist specializing in network measurement, so i can help build the internet into a safer, better resource for everyone. </p>
+            <p class="readable-free-text"> to learn more about me professionally, check out each page of the 'about' section of this site. </p>
             <!-- end intro -->
 
             <!-- start contact -->
-            <div class="parent">
+            <div class="flex-container-row">
 
-              <div class='child inline-block-child'>
+              <div class="column">
+              <div> <img src="media/2021 Twitter logo - white.png" title="open Allison's Twitter profile in a new tab" alt="the Twitter logo, set to open Allison's Twitter profile when clicked" onclick="openInNewTab('https://twitter.com/TurnerAllison99');" width=64 height=54> </div>
+              <div><img src="media/linkedin-square.png" title="open Allison's Linkedin profile in a new tab" alt="the LinkedIn logo, set to open Allison's LinkedIn profile when clicked" onclick="openInNewTab('https://www.linkedin.com/in/allisonturner2/');" width=64 height=54> </div>
+                <div><img src="media/GitHub-Mark-Light-120px-plus.png" title="open Allison's GitHub profile in a new tab" alt="the GitHub logo, set to open Allison's GitHub profile when clicked" onclick="openInNewTab('https://github.com/Allison-Turner');" width=64 height=64>  </div>
+              </div>
+
+              <div class='column'>
                 <h2> contact me </h2>
 
-                <h4> email(s) </h4>
+                <!--<h4> email(s) </h4>-->
                 <p> aturner at ucsd . edu </p>
                 <p> allison . turner . 99 at protonmail . com </p>
-              </div>
-
-              <div class='child inline-block-child'>
-                <h4> twitter </h4>
-                <p> <a href="https://twitter.com/TurnerAllison99">@TurnerAllison99</a> </p>
-
-                <h4> linkedin </h4>
-                <p> <a href="https://www.linkedin.com/in/allisonturner2/">/allisonturner2/</a> </p>
-
-              </div>
-
-              <div class='child inline-block-child'>
-                <h4> github </h4>
-                <p> <a href="https://github.com/Allison-Turner">Allison-Turner</a> </p>
               </div>
 
             </div>
             <!-- end contact -->
 
             <h2> site accessibility </h2>
-            <p> color palette built with <a href="http://colorsafe.co/">Color Safe</a>, <a href="https://toolness.github.io/accessible-color-matrix//">Accessible Color Matrix</a>, and <a href="https://coolors.co">Coolors</a> </p>
-            <p> alt text always available on <code>img</code> elements </p>
-            <p> i'm always learning, so please feel free to contact me about any accessibility issues on this site! </p>
+            <p class="readable-free-text"> color palette built with <a href="http://colorsafe.co/">Color Safe</a>, <a href="https://toolness.github.io/accessible-color-matrix//">Accessible Color Matrix</a>, and <a href="https://coolors.co">Coolors</a> </p>
+            <p class="readable-free-text"> alt text available on all <code>img</code> elements </p>
+            <p class="readable-free-text"> i'm always learning, and i maintain this site by hand, so please feel free to contact me about any accessibility issues on this site! </p>
 
           </div>
           <!-- end page-content -->
