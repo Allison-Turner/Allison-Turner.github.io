@@ -1,71 +1,72 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>allison-turner</title>
+<head>
+<title>allison-turner</title>
 
-        <link rel="stylesheet" href="style.css">
-        <script type="text/javascript" src="scripts.js"></script>
-    </head>
+<link rel="stylesheet" href="style.css">
+<script type="text/javascript" src="scripts.js"></script>
+</head>
 
-    <body>
+<body>
+<a id="skip-to-content" href="#main-content">skip to main content</a>
 
-        <h1>allison-turner</h1>
-        
-        <!-- Navigation Bar -->
-        <div class="navbar">
-            <a href="#">$HOME</a>
+<header>
 
-            <div class="dropdown">
-              <button class="dropbtn">about
-                <i class="fa fa-caret-down"></i>
-              </button>
-              <div class="dropdown-content">
-                <a href="about/research.html">research</a>
-                <a href="about/teaching.html">teaching</a>
-                <a href="about/industry.html">industry</a>
-                <a href="about/education.html">education</a>
-                <a href="about/fun.html">just for fun</a>
-              </div>
-            </div>
-          </div> 
-          <!-- end Navigation Bar -->
+<h1>allison-turner</h1>
 
-          <!-- start page-content -->
-          <div class="page-content">
+<!-- Navigation Bar -->
+<nav>
+<button>Home</button>
+<button onclick="window.open('./about/research.html','_self');">Research</button>
+<button onclick="window.open('./about/industry.html','_self');">Industry</button>
+<button onclick="window.open('./about/education.html','_self');">Education</button>
+<button onclick="window.open('./about/teaching.html','_self');">Teaching</button>
+<button onclick="window.open('./about/fun.html','_self');">Just for Fun</button>
+</nav>
+<!-- end Navigation Bar -->
 
-            <!-- start intro -->
-            <p class="readable-free-text"> <b>hi!</b> i'm allison, a first-year PhD student at UCSD. </p>
-            <p class="readable-free-text"> i'm working to become a computer scientist specializing in network measurement, so i can help build the internet into a safer, better resource for everyone. </p>
-            <p class="readable-free-text"> to learn more about me professionally, check out each page of the 'about' section of this site. </p>
-            <!-- end intro -->
+</header>
 
-            <!-- start contact -->
-            <div class="flex-container-row">
 
-              <div class="column">
-              <div> <img src="media/2021 Twitter logo - white.png" title="open Allison's Twitter profile in a new tab" alt="the Twitter logo, set to open Allison's Twitter profile when clicked" onclick="openInNewTab('https://twitter.com/TurnerAllison99');" width=64 height=54> </div>
-              <div><img src="media/linkedin-square.png" title="open Allison's Linkedin profile in a new tab" alt="the LinkedIn logo, set to open Allison's LinkedIn profile when clicked" onclick="openInNewTab('https://www.linkedin.com/in/allisonturner2/');" width=64 height=54> </div>
-                <div><img src="media/GitHub-Mark-Light-120px-plus.png" title="open Allison's GitHub profile in a new tab" alt="the GitHub logo, set to open Allison's GitHub profile when clicked" onclick="openInNewTab('https://github.com/Allison-Turner');" width=64 height=64>  </div>
-              </div>
+<article id="main-content">
 
-              <div class='column'>
-                <h2> contact me </h2>
+<!-- start intro -->
+<section>
+<p> Hi! I'm Allison, a first-year PhD student at UCSD. </p>
+<p> I'm working to become a computer scientist specializing in network measurement, so I can help build the internet into a safer, better resource for everyone. </p>
+<p> to learn more about me professionally, check out each page of the 'about' section of this site. </p>
+</section>
+<!-- end intro -->
 
-                <!--<h4> email(s) </h4>-->
-                <p> aturner at ucsd . edu </p>
-                <p> allison . turner . 99 at protonmail . com </p>
-              </div>
+<!-- start contact -->
+<section>
+<a href="https://twitter.com/TurnerAllison99" target="_blank" rel="noopener">
+<img id="TwitterLogoLink" class="logo" src="media/2021 Twitter logo - white.png" title="open Allison's Twitter profile in a new tab" alt="the Twitter logo, set to open Allison's Twitter profile when clicked">
+</a>
 
-            </div>
-            <!-- end contact -->
+<a href="https://www.linkedin.com/in/allisonturner2/" target="_blank" rel="noopener">
+<img id="LinkedInLogoLink" class="logo" src="media/linkedin-square.png" title="open Allison's Linkedin profile in a new tab" alt="the LinkedIn logo, set to open Allison's LinkedIn profile when clicked">
+</a>
 
-            <h2> site accessibility </h2>
-            <p class="readable-free-text"> color palette built with <a href="http://colorsafe.co/">Color Safe</a>, <a href="https://toolness.github.io/accessible-color-matrix//">Accessible Color Matrix</a>, and <a href="https://coolors.co">Coolors</a> </p>
-            <p class="readable-free-text"> alt text available on all <code>img</code> elements </p>
-            <p class="readable-free-text"> i'm always learning, and i maintain this site by hand, so please feel free to contact me about any accessibility issues on this site! </p>
+<a href="https://github.com/Allison-Turner" target="_blank" rel="noopener">
+<img id="GitHubLogoLink" class="logo" src="media/GitHub-Mark-Light-120px-plus.png" title="open Allison's GitHub profile in a new tab" alt="the GitHub logo, set to open Allison's GitHub profile when clicked">
+</a>
 
-          </div>
-          <!-- end page-content -->
+<h2> contact me </h2>
+<p> aturner at ucsd . edu </p>
+<p> allison . turner . 99 at protonmail . com </p>
+</section>
+<!-- end contact -->
 
-    </body>
+<section>
+<h2> site accessibility </h2>
+<p> currently rebuilding for the screenreading user's experience </p>
+<p> color palette built with <a href="http://colorsafe.co/">Color Safe</a>, <a href="https://toolness.github.io/accessible-color-matrix//">Accessible Color Matrix</a>, and <a href="https://coolors.co">Coolors</a> </p>
+<p> alt text available on all <code>img</code> elements </p>
+<p> I'm always learning, and I maintain this site by hand, so please feel free to contact me about any accessibility issues on this site! </p>
+</section>
+
+</article>
+
+</body>
 </html> 

@@ -1,72 +1,54 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>allison-turner</title>
+<head>
+<title>allison-turner</title>
 
-        <link rel="stylesheet" href="../style.css">
-        <script type="text/javascript" src="../scripts.js"></script>
-    </head>
+<link rel="stylesheet" href="../style.css">
+<script type="text/javascript" src="../scripts.js"></script>
+</head>
 
-    <body>
+<body>
 
-        <h1>man allison-turner --industry</h1>
-        
-        <!-- Navigation Bar -->
-        <div class="navbar">
-            <a href="../index.html">$HOME</a>
+<h1>man allison-turner --industry</h1>
 
-            <div class="dropdown">
-              <button class="dropbtn">about
-                <i class="fa fa-caret-down"></i>
-              </button>
+<!-- Navigation Bar -->
+<nav>
+  <button onclick="window.open('../index.html','_self');">Home</button>
+  <button onclick="window.open('./research.html','_self');">Research</button>
+  <button onclick="window.open('./industry.html','_self');">Industry</button>
+  <button onclick="window.open('./education.html','_self');">Education</button>
+  <button onclick="window.open('./teaching.html','_self');">Teaching</button>
+  <button onclick="window.open('./fun.html','_self');">Just for Fun</button>
+  </nav>
+<!-- end Navigation Bar -->
 
-              <div class="dropdown-content">
-                <a href="research.html">research</a>
-                <a href="teaching.html">teaching</a>
-                <a href="#">industry</a>
-                <a href="education.html">education</a>
-                <a href="fun.html">just for fun</a>
-              </div>
-            </div>
 
-          </div> 
-          <!-- end Navigation Bar -->
 
-          <!-- start page-content -->
-          <div class="page-content">
+<!--start Pegasystems-->
+<h2>Pegasystems</h2>
 
-            <!--start Pegasystems-->
-            <h2>Pegasystems</h2>
-            <div class="flex-container-row">
-              <div class='column'>
-                <div>
-                <img src="../media/PegaLogo.png" title="" alt="" onclick="openInNewTab('https://www.pega.com/');" class="logo-frame" width=200px>
-                </div>
-              </div>
-              <div class='column'>
-                <h3>Software Engineering Intern</h3>
-                <h4>May 2019 to August 2019</h4>
-                <p class="readable-free-text">Designed and created an automated environment to test all supported database platforms with Jenkins pipelines and Gradle plugins. Wrote bash scripts to automate software installations and periodic job runs. Environment used devops artifacts to test against historical software versions and Dockerized databases for fast setup and easy cleanup.</p>
-              </div>
-          </div>
-            <!--end Pegasystems-->
+<img id="" class="logo" src="../media/PegaLogo.png" title="" alt="" onclick="openInNewTab('https://www.pega.com/');">
 
-            <!--start Aras-->
-            <h2>Aras Corporation</h2>
-            
-            <img src="../media/ArasLogo.png" title="" alt="" onclick="openInNewTab('https://www.aras.com/');" class="logo-frame" width=200px>
-            
-            <h3>Software Engineering Intern</h3>
-            <h4>June 2018 to August 2018</h4>
-            <p class="readable-free-text">Wrote automated QA testing using C# and Selenium to assess whether upgrades on clients’ instances of the software interfered with past fixes. Developed testing API and framework.</p>
+<h3>Software Engineering Intern</h3>
+<h4>May 2019 to August 2019</h4>
+<p>Designed and created an automated environment to test all supported database platforms with Jenkins pipelines and Gradle plugins. Wrote bash scripts to automate software installations and periodic job runs. Environment used devops artifacts to test against historical software versions and Dockerized databases for fast setup and easy cleanup.</p>
+<!--end Pegasystems-->
 
-            <h3>Programming Intern</h3>
-            <h4>July 2015 to August 2015</h4>
-            <p class="readable-free-text">Created industry-level software development tutorials for writing web applications with a C# and .NET front end and an Aras Innovator back end.</p>
+<!--start Aras-->
+<h2>Aras Corporation</h2>
 
-            <!--end Aras-->
-          </div>
-          <!-- end page-content -->
+<img id="" class="logo" src="../media/ArasLogo.png" title="" alt="" onclick="openInNewTab('https://www.aras.com/');">
 
-    </body>
+<h3>Software Engineering Intern</h3>
+<h4>June 2018 to August 2018</h4>
+<p>Wrote automated QA testing using C# and Selenium to assess whether upgrades on clients’ instances of the software interfered with past fixes. Developed testing API and framework.</p>
+
+<h3>Programming Intern</h3>
+<h4>July 2015 to August 2015</h4>
+<p>Created industry-level software development tutorials for writing web applications with a C# and .NET front end and an Aras Innovator back end.</p>
+
+<!--end Aras-->
+
+
+</body>
 </html> 
