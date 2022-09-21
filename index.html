@@ -3,9 +3,11 @@
 <head>
 <title>allison-turner</title>
 
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="./style/main-style.css">
 <script type="text/javascript" src="scripts.js"></script>
 </head>
+
+
 
 <body>
 <a id="skip-to-content" href="#main-content">skip to main content</a>
@@ -16,57 +18,100 @@
 
 <!-- Navigation Bar -->
 <nav>
+
+<a target="_self" title="Home Page" href="#">
 <button>Home</button>
-<button onclick="window.open('./about/research.html','_self');">Research</button>
-<button onclick="window.open('./about/industry.html','_self');">Industry</button>
-<button onclick="window.open('./about/education.html','_self');">Education</button>
-<button onclick="window.open('./about/teaching.html','_self');">Teaching</button>
-<button onclick="window.open('./about/fun.html','_self');">Just for Fun</button>
+</a>
+
+<a target="_self" title="Research" href="./about/research.html">
+<button>Research</button>
+</a>
+
+<a target="_self" title="" href="./about/industry.html">
+<button>Industry</button>
+</a>
+
+<a target="_self" title="" href="./about/education.html">
+<button>Education</button>
+</a>
+
+<a target="_self" title="" href="./about/teaching.html">
+<button>Teaching</button>
+</a>
+
+<a target="_self" title="" href="./about/fun.html">
+<button>Just for Fun</button>
+</a>
+
 </nav>
 <!-- end Navigation Bar -->
 
 </header>
 
 
-<article id="main-content">
+<main id="main-content">
 
+
+    
 <!-- start intro -->
 <section>
-<p> Hi! I'm Allison, a first-year PhD student at UCSD. </p>
-<p> I'm working to become a computer scientist specializing in network measurement, so I can help build the internet into a safer, better resource for everyone. </p>
-<p> to learn more about me professionally, check out each page of the 'about' section of this site. </p>
+<p> 
+Hi! I'm Allison, a second-year PhD student at UCSD. 
+<br>
+I'm working to become a computer scientist specializing in network measurement, so I can help build the internet into a safer, better resource for everyone. 
+<br>
+To learn more about me professionally, check out each page of this site.
+</p>
 </section>
 <!-- end intro -->
 
-<!-- start contact -->
+
 <section>
-<a href="https://twitter.com/TurnerAllison99" target="_blank" rel="noopener">
+<h2>
+Site Accessibility
+</h2>
+
+<p> 
+Attempted to revise with semantic HTML for the screenreading user's experience.
+<br>
+Color palette built with <a href="http://colorsafe.co/">Color Safe</a>, <a href="https://toolness.github.io/accessible-color-matrix//">Accessible Color Matrix</a>, and <a href="https://coolors.co">Coolors</a> 
+<br>
+Alt text available on all <code>img</code> elements 
+<br>
+I'm always learning, and I maintain this site by hand, so please feel free to contact me about any accessibility issues on this site! 
+</p>
+</section>
+
+
+
+</main>
+
+<footer>
+<h2 id="contact-me">
+contact me 
+</h2>
+
+<div class="flex-container">
+<a href="https://twitter.com/TurnerAllison99" class="flex-item" target="_blank" rel="noopener">
 <img id="TwitterLogoLink" class="logo" src="media/2021 Twitter logo - white.png" title="open Allison's Twitter profile in a new tab" alt="the Twitter logo, set to open Allison's Twitter profile when clicked">
 </a>
 
-<a href="https://www.linkedin.com/in/allisonturner2/" target="_blank" rel="noopener">
+<a href="https://www.linkedin.com/in/allisonturner2/" class="flex-item" target="_blank" rel="noopener">
 <img id="LinkedInLogoLink" class="logo" src="media/linkedin-square.png" title="open Allison's Linkedin profile in a new tab" alt="the LinkedIn logo, set to open Allison's LinkedIn profile when clicked">
 </a>
 
-<a href="https://github.com/Allison-Turner" target="_blank" rel="noopener">
+
+<a href="https://github.com/Allison-Turner" class="flex-item" target="_blank" rel="noopener">
 <img id="GitHubLogoLink" class="logo" src="media/GitHub-Mark-Light-120px-plus.png" title="open Allison's GitHub profile in a new tab" alt="the GitHub logo, set to open Allison's GitHub profile when clicked">
 </a>
 
-<h2> contact me </h2>
-<p> aturner at ucsd . edu </p>
-<p> allison . turner . 99 at protonmail . com </p>
-</section>
-<!-- end contact -->
-
-<section>
-<h2> site accessibility </h2>
-<p> currently rebuilding for the screenreading user's experience </p>
-<p> color palette built with <a href="http://colorsafe.co/">Color Safe</a>, <a href="https://toolness.github.io/accessible-color-matrix//">Accessible Color Matrix</a>, and <a href="https://coolors.co">Coolors</a> </p>
-<p> alt text available on all <code>img</code> elements </p>
-<p> I'm always learning, and I maintain this site by hand, so please feel free to contact me about any accessibility issues on this site! </p>
-</section>
-
-</article>
+<p id="emails" class="flex-item"> 
+aturner at ucsd . edu 
+<br>
+allison . turner . 99 at protonmail . com 
+</p>
+</div>
+</footer>
 
 </body>
 </html> 

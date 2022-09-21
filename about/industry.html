@@ -3,41 +3,77 @@
 <head>
 <title>allison-turner</title>
 
-<link rel="stylesheet" href="../style.css">
+<link rel="stylesheet" href="../style/main-style.css">
 <script type="text/javascript" src="../scripts.js"></script>
 </head>
 
 <body>
+<a id="skip-to-content" href="#main-content">skip to main content</a>
 
-<h1>man allison-turner --industry</h1>
+<header>
+<h1>allison-turner --industry</h1>
 
 <!-- Navigation Bar -->
 <nav>
-  <button onclick="window.open('../index.html','_self');">Home</button>
-  <button onclick="window.open('./research.html','_self');">Research</button>
-  <button onclick="window.open('./industry.html','_self');">Industry</button>
-  <button onclick="window.open('./education.html','_self');">Education</button>
-  <button onclick="window.open('./teaching.html','_self');">Teaching</button>
-  <button onclick="window.open('./fun.html','_self');">Just for Fun</button>
+  <a target="_self" title="Home Page" href="../index.html">
+  <button>Home</button>
+  </a>
+  
+  <a target="_self" title="Research" href="./research.html">
+  <button>Research</button>
+  </a>
+  
+  <a target="_self" title="" href="#">
+  <button>Industry</button>
+  </a>
+  
+  <a target="_self" title="" href="./education.html">
+  <button>Education</button>
+  </a>
+  
+  <a target="_self" title="" href="./teaching.html">
+  <button>Teaching</button>
+  </a>
+  
+  <a target="_self" title="" href="./fun.html">
+  <button>Just for Fun</button>
+  </a>
+  
   </nav>
 <!-- end Navigation Bar -->
+</header>
 
-
+<main>
 
 <!--start Pegasystems-->
-<h2>Pegasystems</h2>
+<section>
+<div class="flex-container">
 
-<img id="" class="logo" src="../media/PegaLogo.png" title="" alt="" onclick="openInNewTab('https://www.pega.com/');">
+<a target="" class="logo flex-item" title="" href="https://www.pega.com/'">
+<img id="" src="../media/PegaLogo.png" title="" alt="">
+</a>
+
+<h2 class="flex-item">Pegasystems</h2>
+
+</div>
 
 <h3>Software Engineering Intern</h3>
 <h4>May 2019 to August 2019</h4>
 <p>Designed and created an automated environment to test all supported database platforms with Jenkins pipelines and Gradle plugins. Wrote bash scripts to automate software installations and periodic job runs. Environment used devops artifacts to test against historical software versions and Dockerized databases for fast setup and easy cleanup.</p>
+</section>
 <!--end Pegasystems-->
 
 <!--start Aras-->
-<h2>Aras Corporation</h2>
+<section>
+<div class="flex-container">
 
-<img id="" class="logo" src="../media/ArasLogo.png" title="" alt="" onclick="openInNewTab('https://www.aras.com/');">
+<a target="" class="logo flex-item" title="" href="https://www.aras.com/'">
+<img id="" src="../media/ArasLogo.png" title="" alt="">
+</a>
+
+<h2 class="flex-item">Aras Corporation</h2>
+
+</div>
 
 <h3>Software Engineering Intern</h3>
 <h4>June 2018 to August 2018</h4>
@@ -46,9 +82,10 @@
 <h3>Programming Intern</h3>
 <h4>July 2015 to August 2015</h4>
 <p>Created industry-level software development tutorials for writing web applications with a C# and .NET front end and an Aras Innovator back end.</p>
-
+</section>
 <!--end Aras-->
 
+</main>
 
 </body>
 </html> 

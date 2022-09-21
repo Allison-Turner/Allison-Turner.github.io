@@ -1,0 +1,55 @@
+article.flex-item {
+    max-width: 25vw;
+    text-align: center;
+    width: fit-content;
+  }
+
+.flex-container.portfolio{
+    max-width: 90vw;
+    min-width: 90vw;
+}
+ 
+.flex-container.portfolio a {
+    color: #f3b61f;
+}
+
+.flex-container.portfolio article.flex-item {
+    color: #f2f2f2;
+    background-color: #0e3d44;
+    max-width: 25em;
+    padding: 2em;
+    border-radius: 12em;
+    text-align: center;
+    width: fit-content;
+    font-size: small;
+}
+
+@keyframes glow {
+    0%   { filter: none; }
+    10%  { filter:drop-shadow(0em 0em 1em #f2f2f2); }
+    20%  { filter:drop-shadow(0em 0em 1em #e3d0d4); }
+    30%  { filter:drop-shadow(0em 0em 2em #e460b6); }
+    40%  { filter:drop-shadow(0em 0em 2em #e53099); }
+    50%  { filter:drop-shadow(0em 0em 3em #e6005c); }
+    60%  { filter:drop-shadow(0em 0em 2em #e53099); }
+    70%  { filter:drop-shadow(0em 0em 2em #e460b6); }
+    80%  { filter:drop-shadow(0em 0em 1em #e3d0d4); }
+    90%  { filter:drop-shadow(0em 0em 1em #f2f2f2); }
+    100% { filter: none; }
+}
+ 
+article.flex-item:hover {
+    animation-name: glow;
+    animation-duration: 10s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+
+article.flex-item h4, article.flex-item h5, article.flex-item h6{
+    color: #f2f2f2;
+    padding: 0.5em;
+}
+  
+article.flex-item img{
+    max-width: 3em;
+}
