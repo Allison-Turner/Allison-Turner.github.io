@@ -1,135 +1,236 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>allison-turner</title>
-        
-        <link rel="stylesheet" href="../style.css">
-    </head>
 
-    <body>
+<head>
+<title>allison-turner</title>
 
-        <h1>man allison-turner --education</h1>
+<link rel="stylesheet" href="../style/main-style.css">
+<link rel="stylesheet" href="../style/portfolio-gallery.css">
+<script type="text/javascript" src="../scripts.js"></script>
+</head>
 
-        <!-- Navigation Bar -->
-        <div class="navbar">
-            <a href="../index.html">$HOME</a>
+<body>
+<a id="skip-to-content" href="#main-content">skip to main content</a>
 
-            <div class="dropdown">
-              <button class="dropbtn">about
-                <i class="fa fa-caret-down"></i>
-              </button>
+<header>
+<h1>allison-turner --education</h1>
 
-              <div class="dropdown-content">
-                <a href="research.html">research</a>
-                <a href="teaching.html">teaching</a>
-                <a href="industry.html">industry</a>
-                <a href="#">education</a>
-                <a href="fun.html">just for fun</a>
-              </div>
-            </div>
+<!-- Navigation Bar -->
+<nav>
+<a target="_self" title="Home Page" href="../index.html">
+<button>Home</button>
+</a>
 
-          </div> 
-          <!-- end Navigation Bar-->
+<a target="_self" title="Research" href="./research.html">
+<button>Research</button>
+</a>
 
-          <!-- start page-content -->
-          <div class="page-content">
+<a target="_self" title="" href="./industry.html">
+<button>Industry</button>
+</a>
 
-          <!-- start UCSD -->
-          <div class="parent center">
-              <div class='child inline-block-child'>
-                  <img src="../media/UCSDLogo.png" alt="Logo of University of California at San Diego" width=100 height=100 class="logo-frame"></img>
-              </div>
+<a target="_self" title="" href="#">
+<button>Education</button>
+</a>
 
-              <div class='child inline-block-child'>
-                <h2> University of California at San Diego </h2>
-                <h3> PhD in Computer Science </h3>
-                <p> September 2021 to Present </p>
-                <p> Advised by <a href="https://cseweb.ucsd.edu/~snoeren/">Alex Snoeren</a> and <a href="https://users.caida.org/~kc/">k claffy</a> </p>
-              </div>
-              
+<a target="_self" title="" href="./teaching.html">
+<button>Teaching</button>
+</a>
 
-              <div class='child inline-block-child'>
-                <img src="../media/UCSDSeal.png" alt="Seal of University of California at San Diego" width=100 height=100 class="logo-frame"></img>
-              </div>
-            </div>
+<a target="_self" title="" href="./fun.html">
+<button>Just for Fun</button>
+</a>
 
-            <!-- start UCSD Portfolio -->
-            <h3> Portfolio </h3>
-            <div class="parent">
+</nav>
+<!-- end Navigation Bar-->
+</header>
 
-                <!-- Branch Predictor Algorithm Simulation Report-->
-                <div class='child inline-block-child'>
-                    <object data='../media/Branch Predictor Algorithm Simulation Report by Allison Turner and James Yuan.pdf' type="application/pdf" width="500" height="378">
-                        <iframe src='../media/Branch Predictor Algorithm Simulation Report by Allison Turner and James Yuan.pdf' width="500" height="378">
-                            <p>This browser does not support PDF!</p>
-                          </iframe>
-                      </object>
-                  </div>
-                  <!-- end Branch Predictor Algorithm Simulation Report -->
+<main id="main-content">
 
-            </div>
-            <!-- end UCSD Portfolio -->
-            <!-- end UCSD -->
 
-          <!-- start Wellesley College -->
-          <div class="parent center">
-              <div class='child inline-block-child'>
-                  <img src="../media/WellesleyCollegeLogo.png" alt="Logo of Wellesley College" width=120 height=80 class="logo-frame"></img>
-                </div>
+<!-- start UCSD -->
+<section>
 
-                <div class='child inline-block-child'>
-                    <h2> Wellesley College </h2>
-                    <h3> Bachelor's in Computer Science </h3>
-                    <p> September 2017 to June 2021 </p>
-                    <p> Advised by <a href="https://www.wellesley.edu/cs/faculty/bassem">Christine Bassem</a> </p>
-                    <p> Nominated to <a href="https://www.sigmaxi.org/">Sigma Xi</a> </p>
-                </div>
+<div class="flex-container">
+<img id="UCSDLogo" class="logo flex-item" src="../media/UCSDLogo.png" alt="Logo of University of California at San Diego"></img>
+<h2 class="flex-item"> University of California at San Diego </h2>
+<img id="UCSDSeal" class="logo flex-item" src="../media/UCSDSeal.png" alt="Seal of University of California at San Diego"></img>
+</div>
 
-                <div class='child inline-block-child'>
-                    <img src="../media/WellesleyCollegeSeal.png" alt="Seal of Wellesley College" width=100 height=100 class="logo-frame"></img>
-                  </div>                
-          </div>
+<h3> PhD in Computer Science </h3>
+<p> 
+September 2021 to Present 
+<br>
+Advised by <a href="https://cseweb.ucsd.edu/~snoeren/">Alex Snoeren</a> and <a href="https://users.caida.org/~kc/">k claffy</a> 
+</p>
 
-          <!-- start Wellesley College Portfolio -->
-          <h3> Portfolio </h3>
-          <div class="parent">
 
-              <!-- Register Allocation by Graph Coloring Survey Paper-->
-              <div class='child inline-block-child'>
-                  <object data='../media/An Overview of More Efficient Register Allocation by Graph Coloring Applications by Allison Turner.pdf' type="application/pdf" width="500" height="378">
-                      <iframe src='../media/An Overview of More Efficient Register Allocation by Graph Coloring Applications by Allison Turner.pdf' width="500" height="378">
-                          <p>This browser does not support PDF!</p>
-                        </iframe>
-                    </object>
-                </div>
-                <!-- end Register Allocation by Graph Coloring Survey Paper -->
-                
-                <!-- P2P Livestreaming Paper -->
-                <div class='child inline-block-child'>
-                    <object data='../media/Peer-to-Peer Assisted Livestreaming A Proof of Concept Report by Allison Turner, Guanzhou Hu, and Vishrant Tripathi.pdf' type="application/pdf" width="500" height="378">
-                        <iframe src='../media/Peer-to-Peer Assisted Livestreaming A Proof of Concept Report by Allison Turner, Guanzhou Hu, and Vishrant Tripathi.pdf' width="500" height="378">
-                            <p>This browser does not support PDF!</p>
-                        </iframe>
-                    </object>
-                </div>
-                <!-- end P2P Livestreaming Paper -->
+<!-- start UCSD Portfolio -->
+<h3> Portfolio </h3>
 
-                <!-- Augmented Reality Survey Paper-->
-                <div class='child inline-block-child'>
-                    <object data='../media/Augmented Reality An Overview of Essential Algorithms by Allison Turner, Emily Mattlin, and Sammy Lincroft.pdf' type="application/pdf" width="500" height="378">
-                        <iframe src='../media/Augmented Reality An Overview of Essential Algorithms by Allison Turner, Emily Mattlin, and Sammy Lincroft.pdf' width="500" height="378">
-                            <p>This browser does not support PDF!</p>
-                        </iframe>
-                    </object>
-                </div>
-                <!-- end Augmented Reality Survey Paper -->
+<div class="flex-container portfolio">
 
-            </div>
-            <!-- end Wellesley College Portfolio -->
-            <!-- end Wellesley College -->
+<article class="flex-item">
+<h4>Evaluating QUIC for Privacy Improvements Over Its Predecessors</h4>
+<p>A multifaceted examination of the QUIC protocol, both as a standalone transport mechanism and in comparison with other transport mechanisms in a well-known privacy problem space: DNS privacy & integrity.</p>
 
-        </div>
-        <!-- end page-content -->
+<a title="open GitHub repository containing code to run encrypted DNS comparison tests" target="_blank" href="https://github.com/Allison-Turner/comparing-encrypted-dns-methods">
+<img id="QUICEvalRepo" class="logo" alt="white GitHub logo, which is the silhouette of a cat" src="../media/GitHub-Mark-Light-120px-plus.png">
+</a>
 
-    </body>
+<a title="open Allison Turner, Rukshani Athapathu, and Chitra Kharbanda's 'Evaluating QUIC for Privacy Improvements Over Its Predecessors' as a PDF in a new tab" href="../media/Evaluating QUIC for Privacy Improvements Over Its Predecessors.pdf" target="_blank">
+<img id="QUICEvalPDF" class="logo" alt="a white vector graphic of a page, labeled 'PDF'" src="../media/pdf-icon.png">
+</a>
+
+</article>
+
+
+
+<article class="flex-item">
+<h4>Deep-Dive into Security & Privacy Issues of Apple AirTags</h4>
+<p></p>
+
+<a target="_blank" title="open Allison Turner and Alex Bellon's slides on AirTag security issues in a new tab" href="../media/AirTag Presentation - Allison Turner & Alex Bellon 3-14-2022.pdf">
+<img id="AirTagPresentationPDF" class="logo" alt="a white vector graphic of a page, labeled 'PDF'" src="../media/pdf-icon.png">
+</a>
+
+</article>
+
+
+
+<article class="flex-item">
+<h4>Branch Prediction Algorithm Simulator</h4>
+<p>Accuracy-focused simulator for the gshare, tournament, and perceptron branch prediction algorithms. Written in C.</p>
+
+<a title="open GitHub repository containing branch prediction algorithm simulator code" target="_blank" href="https://github.com/Allison-Turner/CSE240A">
+<img id="BranchPredictorRepo" class="logo" alt="white GitHub logo, which is the silhouette of a cat" src="../media/GitHub-Mark-Light-120px-plus.png">
+</a>
+
+<a title="open Allison Turner and James Yuan's 'Branch Predictor Algorithm Simulation Report' as a PDF in a new tab" href="../media/Branch Predictor Algorithm Simulation Report by Allison Turner and James Yuan.pdf" target="_blank">
+<img id="BranchPredictorPDF" class="logo" alt="a white vector graphic of a page, labeled 'PDF'" src="../media/pdf-icon.png">
+</a>
+
+</article>
+
+
+
+<article class="flex-item">
+<h4>Musikell</h4>
+<p>A terminal-based music editor and player. Written in Haskell.</p>
+
+<a title="open GitHub repository containing code for a terminal-based musical composition and playing application" target="_blank" href="https://github.com/Allison-Turner/musikell">
+<img id="MusikellRepo" class="logo" alt="white GitHub logo, which is the silhouette of a cat" src="../media/GitHub-Mark-Light-120px-plus.png">
+</a>
+
+</article>
+
+</div>
+<!-- end UCSD Portfolio -->
+</section>
+<!-- end UCSD -->
+
+
+
+<!-- start Wellesley College -->
+<section class="university">
+<div class="flex-container">
+<img id="WellesleyCollegeLogo" class="logo flex-item" src="../media/WellesleyCollegeLogo.png" alt="Logo of Wellesley College"></img>
+<h2 class="flex-item"> Wellesley College </h2>
+<img id="WellesleyCollegeSeal" class="logo flex-item" src="../media/WellesleyCollegeSeal.png" alt="Seal of Wellesley College"></img>
+</div>
+
+<h3> Bachelor's in Computer Science </h3>
+<p> 
+September 2017 to June 2021 
+<br>
+Advised by <a href="https://www.wellesley.edu/cs/faculty/bassem">Christine Bassem</a> 
+<br>
+ Nominated to <a href="https://www.sigmaxi.org/">Sigma Xi</a> 
+</p>
+
+
+
+<!-- start Wellesley College Portfolio -->
+<h3> Portfolio </h3>
+<div class="flex-container portfolio">
+
+<article class="flex-item">
+
+<h4>An Overview of More Efficient Register Allocation by Graph Coloring Applications</h4>
+
+<p>Literature review discussing the history of graph-coloring algorithms when applied to correct and efficient usage of register storage in the late stages of program compilation.</p>
+
+<a title="open Allison Turner's 'An Overview of More Efficient Register Allocation by Graph Coloring Applications' as a PDF in a new tab" target="_blank" href="../media/An Overview of More Efficient Register Allocation by Graph Coloring Applications by Allison Turner.pdf">
+<img id="GraphColoringRegistersPDF" class="logo" alt="a white vector graphic of a page, labeled 'PDF'" src="../media/pdf-icon.png">
+</a>
+
+</article>
+
+
+
+<article class="flex-item">
+
+<h4>Chord Implementation</h4>
+
+<p>Implementation of the Chord algorithm for a peer-to-peer file storage system. Includes procedures for new hosts to join the distributed system, populate finger tables, and add files. Written in Java and intended for use with EC2 VMs over SSH.</p>
+
+<a class="flex-item" title="open GitHub repository containing code implementing the Chord algorithm" target="_blank" href="https://github.com/Allison-Turner/strike-a-chord">
+<img id="ChordRepo" class="logo" alt="white GitHub logo, which is the silhouette of a cat" src="../media/GitHub-Mark-Light-120px-plus.png">
+</a>
+
+</article>
+
+
+
+<article class="flex-item">
+
+<h4>Peer-to-Peer Assisted Livestreaming Proof of Concept</h4>
+
+<p>Proof-of-concept application and network emulator, showing the performance enhancements that a livestreaming application could gain by distributing video from peer to peer in some cases of poorer internet service. </p>
+
+<a title="open Allison Turner, Guanzhou Hu, and Vishrant Tripathi's 'Peer-to-Peer Assisted Livestreaming A Proof of Concept Report' as a PDF in a new tab" target="_blank" href="../media/Peer-to-Peer Assisted Livestreaming A Proof of Concept Report by Allison Turner, Guanzhou Hu, and Vishrant Tripathi.pdf">
+<img id="P2PLivestreamingPDF" class="logo" alt="a white vector graphic of a page, labeled 'PDF'" src="../media/pdf-icon.png">
+</a>
+
+<a title="open GitHub repository containing code for a peer-to-peer livestreaming proof-of-concept" target="_blank" href="https://github.com/Allison-Turner/p2p-livestreaming">
+<img id="P2PLivestreamingRepo" class="logo" alt="white GitHub logo, which is the silhouette of a cat" src="../media/GitHub-Mark-Light-120px-plus.png">
+</a>
+
+</article>
+
+<article class="flex-item">
+
+<h4>Augmented Reality: An Overview of Essential Algorithms</h4>
+
+<p>Literature review of state-of-the-art augmented reality algorithms and mathematics.</p>
+
+<a title="open Allison Turner, Emily Mattlin, and Sammy Lincroft's 'Augmented Reality: An Overview of Essential Algorithms' as a PDF in a new tab" target="_blank" href="../media/Augmented Reality An Overview of Essential Algorithms by Allison Turner, Emily Mattlin, and Sammy Lincroft.pdf">
+<img id="AugmentedRealityPDF" class="logo" alt="a white vector graphic of a page, labeled 'PDF'" src="../media/pdf-icon.png">
+</a>
+
+</article>
+
+
+
+<article class="flex-item">
+
+<h4>Wikipedia Roamer</h4>
+
+<p>Program to algorithmically generate solutions to the Wikipedia Game, in which the player must navigate between two seemingly unrelated topics only by clicking embedded links on their Wikipedia pages.</p>
+
+<a title="open GitHub repository containing code implementing an algorithmic Wikipedia Game solver" target="_blank" href="https://github.com/Allison-Turner/WikipediaRoamer">
+<img id="WikipediaRoamerRepo" class="logo" alt="white GitHub logo, which is the silhouette of a cat" src="../media/GitHub-Mark-Light-120px-plus.png">
+</a>
+
+</article>
+
+</div>
+
+<!-- end Wellesley College Portfolio -->
+</section>
+<!-- end Wellesley College -->
+
+</main>
+
+</body>
 </html> 
