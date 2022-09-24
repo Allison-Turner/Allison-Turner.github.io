@@ -28,11 +28,11 @@ article.flex-item {
     0%   { filter: none; }
     10%  { filter:drop-shadow(0em 0em 1em #f2f2f2); }
     20%  { filter:drop-shadow(0em 0em 1em #e3d0d4); }
-    30%  { filter:drop-shadow(0em 0em 2em #e460b6); }
-    40%  { filter:drop-shadow(0em 0em 2em #e53099); }
-    50%  { filter:drop-shadow(0em 0em 3em #e6005c); }
-    60%  { filter:drop-shadow(0em 0em 2em #e53099); }
-    70%  { filter:drop-shadow(0em 0em 2em #e460b6); }
+    30%  { filter:drop-shadow(0em 0em 1em #e460b6); }
+    40%  { filter:drop-shadow(0em 0em 1em #e53099); }
+    50%  { filter:drop-shadow(0em 0em 1em #e6005c); }
+    60%  { filter:drop-shadow(0em 0em 1em #e53099); }
+    70%  { filter:drop-shadow(0em 0em 1em #e460b6); }
     80%  { filter:drop-shadow(0em 0em 1em #e3d0d4); }
     90%  { filter:drop-shadow(0em 0em 1em #f2f2f2); }
     100% { filter: none; }
