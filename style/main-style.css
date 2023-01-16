@@ -38,7 +38,7 @@ section {
 }
 
 p {
-  max-width: 50em;
+  max-width: 60em;
 }
 
 main {
@@ -60,6 +60,26 @@ footer img.logo {
   max-width: 3em;
   min-width: 2em;
   padding: 0.1em;
+}
+
+footer .container {
+  display: grid; 
+
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr 3fr;
+  
+  gap: 0px;
+  height: 100%;
+  width: 50%;
+  min-width: 30em;
+  margin: 1em;
+}
+
+footer a.item {
+  width:fit-content;
+  align-content: space-around;
+  align-items: center;
+  text-align: center;
 }
 
 .photo {
@@ -95,6 +115,56 @@ h2.flex-item {
 .flex-item img {
   width:3em;
 }
+
+
+
+#fun-media-grid.grid-container {
+  display: grid; 
+
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 4fr;
+  
+  gap: 0px;
+  height: 100%;
+
+}
+/*
+.grid-item.one {
+
+  grid-row-start: 2;
+  grid-column-start: 1;
+
+  grid-row-end: 3;
+  grid-column-end: 2;
+  
+}
+.grid-item.two {
+
+  grid-row-start: 1;
+  grid-column-start: 2;
+
+  grid-row-end: 3;
+  grid-column-end: 6;
+  
+}
+.grid-item.three {
+
+  grid-row-start: 3;
+  grid-column-start: 1;
+
+  grid-row-end: 4;
+  grid-column-end: 6;
+  
+}
+.grid-item.four {
+
+  grid-row-start: 1;
+  grid-column-start: 1;
+
+  grid-row-end: 2;
+  grid-column-end: 2;
+  
+}*/
 
 /*from https://codepen.io/denic/pen/GRoOxbM*/
 /*

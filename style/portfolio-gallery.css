@@ -1,51 +1,36 @@
-.flex-container.portfolio{
+.portfolio-container{
     max-width: 90vw;
     min-width: 90vw;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 }
  
-.flex-container.portfolio a {
+.portfolio-container a {
     color: #f3b61f;
 }
 
-.flex-container.portfolio article.flex-item {
+.portfolio-container article.portfolio-item {
     color: #f2f2f2;
     background-color: #0e3d44;
-    filter: drop-shadow(0em 0em 0.5em #f2f2f2);
+    filter: drop-shadow(0em 0em 1em #f2f2f2);
     width: fit-content;
     max-width: 20vw;
-    border-radius: 30%;
+    min-width: 15vw;
+    border-radius: 10%;
     padding: 2em;
     margin: 1em;
     text-align: center;
     font-size: small;
 }
 
-@keyframes glow {
-    0%   { filter: drop-shadow(0em 0em 0.5em #f2f2f2); }
-    10%  { filter:drop-shadow(0em 0em 1em #f2f2f2); }
-    20%  { filter:drop-shadow(0em 0em 1em #e3d0d4); }
-    30%  { filter:drop-shadow(0em 0em 1em #e460b6); }
-    40%  { filter:drop-shadow(0em 0em 1em #e53099); }
-    50%  { filter:drop-shadow(0em 0em 1em #e6005c); }
-    60%  { filter:drop-shadow(0em 0em 1em #e53099); }
-    70%  { filter:drop-shadow(0em 0em 1em #e460b6); }
-    80%  { filter:drop-shadow(0em 0em 1em #e3d0d4); }
-    90%  { filter:drop-shadow(0em 0em 1em #f2f2f2); }
-    100% { filter: drop-shadow(0em 0em 0.5em #f2f2f2); }
-}
- 
-article.flex-item:hover {
-    animation-name: glow;
-    animation-duration: 10s;
-    animation-timing-function: ease;
-    animation-iteration-count: infinite;
-}
-
-article.flex-item h4, article.flex-item h5, article.flex-item h6{
+article.portfolio-item h4, article.portfolio-item h5, article.portfolio-item h6{
     color: #f2f2f2;
     padding: 0.5em;
 }
   
-article.flex-item img{
+article.portfolio-item img{
     max-width: 3em;
 }
+
+
